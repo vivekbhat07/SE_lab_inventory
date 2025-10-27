@@ -19,7 +19,6 @@
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Used <code>logs=[]</code> which shared the same list across function calls.</td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Changed default to <code>None</code> and initialized inside the function.</td>
     </tr>
-
     <tr>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">🐍 <strong>Non-snake_case function names</strong></td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">💅 Style</td>
@@ -27,7 +26,6 @@
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Functions like <code>addItem</code> and <code>removeItem</code> did not follow PEP 8 naming conventions.</td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Renamed all to snake_case (e.g., <code>add_item</code>, <code>remove_item</code>, <code>get_qty</code>).</td>
     </tr>
-
     <tr>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">📏 <strong>Missing blank line between functions</strong></td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">💅 Style</td>
@@ -35,7 +33,6 @@
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Functions were not separated by blank lines, reducing readability and PEP 8 compliance.</td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Added one blank line between top-level functions.</td>
     </tr>
-
     <tr>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">🗒️ <strong>Missing docstrings/comments</strong></td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">🧾 Documentation</td>
@@ -43,7 +40,6 @@
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Functions lacked explanations for purpose and parameters.</td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Added descriptive docstrings (<code>\"\"\"...\"\"\"</code>) to all functions and the module header.</td>
     </tr>
-
     <tr>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">🧱 <strong>Bare try-except block</strong></td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">⚙️ Code Quality</td>
@@ -51,7 +47,6 @@
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Used a generic <code>except:</code> which hides actual errors.</td>
       <td style="padding:10px 8px; border-bottom:1px solid #e1e4e8;">Replaced with specific exception types (<code>except KeyError</code>, <code>except TypeError</code>) and clearer messages.</td>
     </tr>
-
     <tr>
       <td style="padding:10px 8px;">🔤 <strong>Unsafe string formatting</strong></td>
       <td style="padding:10px 8px;">💡 Readability</td>
